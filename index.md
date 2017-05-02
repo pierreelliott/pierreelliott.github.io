@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Pierre-Elliott Thiboud
 
-You can use the [editor on GitHub](https://github.com/pierreelliott/pierreelliott.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is my personal website (thanks to [GitHub](https://pages.github.com)) which I will use as a online profile and a projects portfolio.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Projects
 
-### Markdown
+### Little A.I.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For my internship at the LIRIS (a french computing research laboratory) in the SMA team (Systèmes Multi-Agents), I have to recreate a web version of the [Little A.I.](http://little-ai.com) game (only available on the Apple Store for now).
 
-```markdown
-Syntax highlighted code block
+* You can find a demo [here](https://pierreelliott.github.io/LittleAI-Web).
+* And the GitHub repositery is [right there](https://github.com/pierreelliott/LittleAI-Web).
 
-# Header 1
-## Header 2
-### Header 3
+### Rock-Paper-Scissors-Lizard-Spock
 
-- Bulleted
-- List
+It's a very simple game which expands the basic rules of Shifumi to make it more challenging.
 
-1. Numbered
-2. List
+For now, you can only play against the computer (who plays randomly).  
+But I plan to add a multiplayer mode.
 
-**Bold** and _Italic_ and `Code` text
+* You can find a demo [here](https://pierreelliott.github.io/Rock-Paper-Scissors-Lizard-Spock).
+* And the GitHub repositery is [right there](https://github.com/pierreelliott/Rock-Paper-Scissors-Lizard-Spock).
 
-[Link](url) and ![Image](src)
-```
+### There will be more to come...
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Profile
 
-### Jekyll Themes
+I am 21 years old and am actually finishing a DUT Informatique (a 2 year diploma in computing). I'm french and live in Lyon for my studies.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pierreelliott/pierreelliott.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I am fond of web technologies and like to create things (no matter what they are)
