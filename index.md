@@ -28,6 +28,15 @@ There are still some annoying bugs (it doesn't rescale with the window) but you 
 * You can find a demo [here](https://pierreelliott.github.io/SolarSystem/).
 * And the GitHub repository is [right there](https://github.com/pierreelliott/SolarSystem).
 
+### Paint Online
+
+The goal is to have a Paint-like online tool. Not something really complex (just as the Windows' one), but with enough features to make it useful and useable.
+
+For now, you can change the thickness of the pen, change its color, have an eraser (its basically a white color pen) and erase the entire drawable area.
+
+* You can find a demo [here](https://pierreelliott.github.io/PaintOnline/).
+* And the GitHub repository is [right there](https://github.com/pierreelliott/PaintOnline).
+
 ### There will be more to come...
 
 ## About myself
