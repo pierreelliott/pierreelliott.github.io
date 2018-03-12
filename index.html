@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
 	<head>
+		<!-- Required meta tags -->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap import -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- FontAwesome import -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,43 +17,191 @@
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 
-
-		<title>LittleAI</title>
+		<title>Pierre-Elliott Thiboud</title>
 		<link rel="stylesheet" href="/css/master.css">
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="level center">
-				<a href="#">Level 0</a>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Logo</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">À propos</a></li>
+						<li><a href="#skills">Compétences</a></li>
+						<!--<li><a href="#portfolio">Portfolio</a></li>-->
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
 			</div>
+		</nav>
 
-			<div class="score center">
-				Score
+		<div class="jumbotron text-center">
+			<h1>Pierre-Elliott Thiboud</h1>
+			<p>Web développeur et ingénieur informatique en devenir</p>
+		</div>
+
+		<!--<div class="" id="sideMenu">
+			<div class="icon-bar">
+				<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="google"><i class="fa fa-google"></i></a>
+				<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 			</div>
+		</div>-->
 
-			<div class="trace center">
-				Trace
+		<div class="container-fluid" id="about">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>À propos de ce site</h2>
+					<p>Vous pourrez trouver sur ce site toutes mes créations informatiques (et non informatiques également)
+						ainsi que quelques infos sur moi.</p>
+					<p class="text-warning"><span class="fa fa-warning"></span> Site en construction</p>
+					<a href="#contact">
+						<button class="btn btn-default btn-lg btn-success"><span class="fa fa-bullhorn"></span> Me contacter</button>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<span class="fa fa-at logo"></span>
+				</div>
 			</div>
+		</div>
 
-			<div class="commands center">
-				Commands
+		<div class="container-fluid bg-grey">
+			<div class="row">
+				<div class="col-sm-4">
+					<span class="fa fa-address-card-o logo"></span>
+				</div>
+				<div class="col-sm-8">
+					<h2>À propos de moi</h2>
+					<h4>Grand passionné des technologies web et des jeux vidéos, mon rêve ultime : réaliser un jeu (3D) sur navigateur !</h4>
+					<p>Étudiant en école d'ingénieur en informatique à Polytech Lyon et récemment diplômé de DUT Informatique
+						(réalisé à <a href="https://iut.univ-lyon1.fr/" title="Best IUT in the world!">l'IUT Lyon 1</a>),
+						je souhaite m'embarquer dans la réalisation d'un doctorat dans le domaine de l'intelligence artificielle
+						(notamment <a href="http://sciencepost.fr/2017/03/intelligence-artificielle-robot-apprend-nouveau-ne/">l'intelligence artificielle développementale</a>).</p>
+				</div>
 			</div>
+		</div>
 
-			<div class="informations center">
-				Informations
+		<div class="container-fluid text-center" id="skills">
+			<h2>Compétences</h2>
+			<br>
+			<h4>Ce que j'ai à offrir</h4>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<span class="fa fa-code logo-small"></span>
+					<h4>Web</h4>
+					<p>Compétences en HTML5, CSS3 et JavaScript</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="fa fa-code-fork logo-small"></span>
+					<h4>Versionnage</h4>
+					<p>Gestion (quasi) permanente des versions</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="fa fa-database logo-small"></span>
+					<h4>Bases de données</h4>
+					<p>Compétences en SQL (+ PL/SQL), MySQL et noSQL</p>
+				</div>
 			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-4">
+					<span class="fa fa-group logo-small"></span>
+					<h4>Sociabilité</h4>
+					<p>Bonnes relations avec mes collègues et partenaires</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="fa fa-lightbulb-o logo-small"></span>
+					<h4>Créativité</h4>
+					<p>Des idées et suggestions à la pelle</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="fa fa-music logo-small"></span>
+					<h4>Énergie</h4>
+					<p>Optimisme et joie de vivre communicative !</p>
+				</div>
+			</div>
+		</div>
 
-			<div class="replay-mode center">
-				WORLD
+<!--
+		<div class="container-fluid text-center bg-grey">
+			<h2>Portfolio</h2>
+			<h4>What we have created</h4>
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="paris.jpg" alt="Paris">
+						<p><strong>Paris</strong></p>
+						<p>Yes, we built Paris</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="newyork.jpg" alt="New York">
+						<p><strong>New York</strong></p>
+						<p>We built New York</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="sanfran.jpg" alt="San Francisco">
+						<p><strong>San Francisco</strong></p>
+						<p>Yes, San Fran is ours</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<div class="container-fluid bg-grey" id="contact">
+			<h2 class="text-center">CONTACT</h2>
+			<div class="row">
+				<div class="col-sm-5">
+					<p class="text-primary">J'essaierai de vous répondre dans les plus brefs délais (les études obligent)</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span> Villeurbanne, France</p>
+					<!--<p><span class="glyphicon glyphicon-phone"></span> +33 </p>-->
+					<p><a href="mailto:pierre-elliott.thiboud@etu.univ-lyon1.fr"><span class="glyphicon glyphicon-envelope"></span> pierre-elliott.thiboud@etu.univ-lyon1.fr</a></p>
+					<p class="social-icons">
+						<a href="https://www.linkedin.com/in/pierre-elliott-thiboud-06207a110/" class="link"><span class="fa fa-linkedin linkedin"></span></a>
+						<a href="https://github.com/pierreelliott" class="link"><span class="fa fa-github github"></span></a>
+					</p>
+				</div>
+				<div class="col-sm-7">
+					<!-- Google Maps -->
+					<div id="googleMap" style="height:400px;width:100%;"></div>
+				</div>
 			</div>
 		</div>
 
 
-		<!-- Loaded at the end to load the page quicker (normally) -->
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	    <script src="js/bootstrap.min.js"></script>
+		<!-- Scripts (jQuery, Popper and Bootstrap) -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- Other scripts -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ElIp9Uq4OebvdihWiP3afBLKNArCEc8&callback=mapMyMap"></script>
+		<script src="js/main.js"></script>
+		<!--<script src="js/display.js"></script>-->
+		<script type="text/javascript">
+			function mapMyMap() {
+				var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+				var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+				var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				var marker = new google.maps.Marker({position:myCenter});
+
+				marker.setMap(map);
+			}
+		</script>
 	</body>
 <html>

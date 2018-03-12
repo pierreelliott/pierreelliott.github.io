@@ -1,62 +1,129 @@
-.replay-mode {
-	top: 50vh;
-	right: 5vw;
-	border: 1px solid black;
-	background-color: black;
-	width: 20vw;
-	height: 30vh;
-	position: fixed;
-	color: white;
+.jumbotron {
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
+    padding: 10vh 2vw;
+	border-radius: 0;
 }
 
-.score {
-	top: 1vh;
-	left: 1vw;
-	position: fixed;
-	width: 10vw;
-	height: 20vh;
-	border: 2px dashed blue;
-	text-align: center;
+.link {
+	text-decoration: none;
+	color: inherit;
 }
-
-.trace {
-	top: 5vh;
-	left: 20vw;
-	position: fixed;
-	height: 50vh;
-	width: 15vw;
-	border: 2px dashed red;
-	align-content: center;
-}
-
-.commands {
-	bottom: 5vh;
-	left: 12vw;
-	position: fixed;
-	height: 30vh;
-	width: 40vw;
-	border: 2px dashed green;
-}
-
-.informations {
-	top: 10vh;
-	right: 5vh;
-	position: fixed;
-	height: 30vh;
-	width: 40vw;
-	border: 2px dashed yellow;
-}
-
-.level {
-	top: 1vh;
-	right: 1vw;
-	position: fixed;
+.link:hover {
 	text-decoration: none;
 }
 
-.center {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 5vh;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 25vh;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+#googleMap {
+	width: 100%;
+	height: 40vh;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+ display: block;
+ text-align: center;
+ padding: 16px;
+ transition: all 0.3s ease;
+ color: white;
+ font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+ background-color: #000;
+}
+
+.facebook {
+ background: #3B5998;
+ color: white;
+}
+
+.twitter {
+ background: #55ACEE;
+ color: white;
+}
+
+.google {
+ background: #dd4b39;
+ color: white;
+}
+
+.linkedin {
+ background: #007bb5;
+ padding: 2px;
+ color: white;
+ border-radius: 5px;
+}
+
+.youtube {
+ background: #bb0000;
+ color: white;
+}
+
+.github {
+ color: black;
+}
+
+.social-icons {
+	font-size: 150%;
 }
