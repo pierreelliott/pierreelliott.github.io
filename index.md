@@ -44,3 +44,5 @@ For now, you can change the thickness of the pen, change its color, have an eras
 I am 21 years old and am actually finishing a DUT Informatique (a 2 year diploma in computing). I'm french and live in Lyon for my studies.
 
 I am fond of web technologies and like to create things (no matter what they are)
+
+Here is my [Curriculum Vitae](Pierre-Elliott_THIBOUD_CV.pdf) (in French)
