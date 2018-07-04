@@ -4,7 +4,7 @@ I am 22 years old and am currently in the 4th year of an engineering diploma at 
 
 I am fond of web technologies and like to create things (no matter what they are).
 
-You can download my Curriculum Vitae (in French) [right here](Pierre-Elliott_THIBOUD_CV.pdf).
+You can download my Curriculum Vitae (in French) [here](Pierre-Elliott_THIBOUD_CV.pdf).
 
 # Portfolio
 
@@ -14,6 +14,12 @@ For my internship at the [LIRIS](https://liris.cnrs.fr/) (a french computing res
 
 * You can find a demo [here](https://pierreelliott.github.io/LittleAI-Web).
 * While the GitHub repository is [right there](https://github.com/pierreelliott/LittleAI-Web).
+
+## Board Library (+ Tetris, Blokus and Rush Hour)
+
+The goal of this project (made for a course in [Polytech Lyon](https://polytech.univ-lyon1.fr/)) was to create a library to manipulate easily a board (mainly for games). And to test the library, we developed 3 games, Tetris, Blokus and Rush Hour, the later being finished in only 45 minutes!
+
+* You can find the GitHub repository [right here](https://github.com/pierreelliott/BoardLibrary).
 
 # Insanity
 
