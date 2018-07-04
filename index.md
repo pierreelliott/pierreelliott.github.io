@@ -1,6 +1,6 @@
 # Presentation
 
-I am 22 years old and am currently in the 4th year of an engineering diploma at [Polytech Lyon](https://polytech.univ-lyon1.fr/). I already have finished a DUT Informatique (a 2 year diploma in computing) at [IUT LYon 1](https://iut.univ-lyon1.fr/). I'm french and live in Lyon for my studies.
+I am 22 years old and am currently in the 4th year of an engineering diploma at [Polytech Lyon](https://polytech.univ-lyon1.fr/). I already have finished a DUT Informatique (a 2 year diploma in computing) at the [IUT Lyon 1](https://iut.univ-lyon1.fr/). I'm french and live in Lyon for my studies.
 
 I am fond of web technologies and like to create things (no matter what they are).
 
@@ -14,6 +14,12 @@ For my internship at the [LIRIS](https://liris.cnrs.fr/) (a french computing res
 
 * You can find a demo [here](https://pierreelliott.github.io/LittleAI-Web).
 * While the GitHub repository is [right there](https://github.com/pierreelliott/LittleAI-Web).
+
+# Insanity
+
+Insanity is a little WarioWare-like game written in Python, made during an english course in the [IUT Lyon 1](https://iut.univ-lyon1.fr/) on a RaspBerry Pi. The game is itself a succession of mini-games that (should) chain quickly and put a strain on the player. The mini-games are varied (from the simon game to a maze) and come from various sources (we didn't write them).
+
+* You can find the GitHub repository [right here](https://github.com/pierreelliott/Insanity)
 
 ## Rock-Paper-Scissors-Lizard-Spock
 
