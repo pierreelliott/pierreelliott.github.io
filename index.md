@@ -1,48 +1,44 @@
-# Pierre-Elliott Thiboud
+# Presentation
 
-## Projects
+I am 22 years old and am currently in the 4th year of an engineering diploma at [Polytech Lyon](https://polytech.univ-lyon1.fr/). I already have finished a DUT Informatique (a 2 year diploma in computing) at [IUT LYon 1](https://iut.univ-lyon1.fr/). I'm french and live in Lyon for my studies.
 
-### Little A.I.
+I am fond of web technologies and like to create things (no matter what they are).
 
-For my internship at the LIRIS (a french computing research laboratory) in the SMA team (Systèmes Multi-Agents), I have to recreate a web version of the [Little A.I.](http://little-ai.com) game (only available on the Apple Store for now).
+You can download my Curriculum Vitae (in French) [right here](Pierre-Elliott_THIBOUD_CV.pdf).
+
+# Portfolio
+
+## Little A.I.
+
+For my internship at the [LIRIS](https://liris.cnrs.fr/) (a french computing research laboratory) in the [SMA team](https://liris.cnrs.fr/equipes?id=74) (Multi-Agent Systems), I had to recreate a web version of the [Little A.I.](http://little-ai.com) game (only available on the Apple Store for now).
 
 * You can find a demo [here](https://pierreelliott.github.io/LittleAI-Web).
-* And the GitHub repository is [right there](https://github.com/pierreelliott/LittleAI-Web).
+* While the GitHub repository is [right there](https://github.com/pierreelliott/LittleAI-Web).
 
-### Rock-Paper-Scissors-Lizard-Spock
+## Rock-Paper-Scissors-Lizard-Spock
 
-It's a very simple game which expands the basic rules of Shifumi to make it more challenging.
+It's a very simple game which expands the basic rules of Shifumi (Rock-Paper-Scissors) to make it more challenging.
 
 For now, you can only play against the computer (who plays randomly).  
 But I plan to add a multiplayer mode.
 
 * You can find a demo [here](https://pierreelliott.github.io/Rock-Paper-Scissors-Lizard-Spock).
-* And the GitHub repository is [right there](https://github.com/pierreelliott/Rock-Paper-Scissors-Lizard-Spock).
+* While the GitHub repository is [right there](https://github.com/pierreelliott/Rock-Paper-Scissors-Lizard-Spock).
 
-### Solar System
+## Solar System
 
-This is a "simulation" (absolutely not realistic, for now...) of our Solar system.
+This is a "simulation" (which is not realistic actually) of our Solar system.
 
-There are still some annoying bugs (it doesn't rescale with the window) but you can zoom by scrolling and move the camera (a little bit) with the keyboard's arrows.
+For now you can only zoom and move the camera a little bit (commands work with touch gesture and keyboard).
 
 * You can find a demo [here](https://pierreelliott.github.io/SolarSystem/).
-* And the GitHub repository is [right there](https://github.com/pierreelliott/SolarSystem).
+* While the GitHub repository is [right there](https://github.com/pierreelliott/SolarSystem).
 
-### Paint Online
+## Paint Online
 
 The goal is to have a Paint-like online tool. Not something really complex (just as the Windows' one), but with enough features to make it useful and useable.
 
 For now, you can change the thickness of the pen, change its color, have an eraser (its basically a white color pen) and erase the entire drawable area.
 
 * You can find a demo [here](https://pierreelliott.github.io/PaintOnline/).
-* And the GitHub repository is [right there](https://github.com/pierreelliott/PaintOnline).
-
-### There will be more to come...
-
-## About myself
-
-I am 21 years old and am actually finishing a DUT Informatique (a 2 year diploma in computing). I'm french and live in Lyon for my studies.
-
-I am fond of web technologies and like to create things (no matter what they are)
-
-Here is my [Curriculum Vitae](Pierre-Elliott_THIBOUD_CV.pdf) (in French)
+* While the GitHub repository is [right there](https://github.com/pierreelliott/PaintOnline).
