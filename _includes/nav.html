@@ -32,10 +32,14 @@
 						{{ i18n.lang.selection }}
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul>
 							{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 							{% for page in pages %}
+							<li>
 							<a href="{{ page.url }}" class="dropdown-item {{ page.lang }}">{{ i18n.lang[page.lang] }}</a>
+							</li>
 							{% endfor %}
+							</ul>
 						</div>
 					</li>
                 </ul>
