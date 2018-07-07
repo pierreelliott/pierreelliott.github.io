@@ -7,7 +7,7 @@
 	"site": {
 		"skills": "Web Développeur",
 		"my_photo": "Photo de Pierre-Elliott Thiboud",
-		"wip_message": "Ce site web est en train d'être remanié. Si vous souhaitez voir le contenu de l'ancien site, vous pouvez lire le README dans le <a href='github.com/pierreelliott/pierreelliott.github.io'>répertoire GitHub</a>"
+		"wip_message": "Ce site web est en train d'être remanié. Si vous souhaitez voir le contenu de l'ancien site, vous pouvez lire le README dans le répertoire GitHub à l'adresse 'github.com/pierreelliott/pierreelliott.github.io'"
 	},
 	"menu": {
 		"portfolio": "Portfolio",
