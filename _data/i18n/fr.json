@@ -5,7 +5,8 @@
 		"fr": "Français"
 	},
 	"site": {
-		"skills": "Web Développeur"
+		"skills": "Web Développeur",
+		"my_photo": "Photo de Pierre-Elliott Thiboud"
 	},
 	"menu": {
 		"portfolio": "Portfolio",
