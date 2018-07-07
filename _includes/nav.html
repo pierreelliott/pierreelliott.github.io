@@ -27,6 +27,17 @@
                     <li class="page-scroll">
                         <a href="#contact">{{ i18n.menu.contact }}</a>
                     </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{ i18n.lang.selection }}
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+							{% for page in pages %}
+							<a href="{{ page.url }}" class="dropdown-item {{ page.lang }}">{{ i18n.lang[page.lang] }}</a>
+							{% endfor %}
+						</div>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

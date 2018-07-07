@@ -1,4 +1,9 @@
 {
+	"lang": {
+		"selection": "Langue",
+		"en": "Anglais",
+		"fr": "Français"
+	},
 	"site": {
 		"skills": "Web Développeur"
 	},
