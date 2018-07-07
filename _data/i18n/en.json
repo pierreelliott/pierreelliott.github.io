@@ -6,7 +6,8 @@
 	},
 	"site": {
 		"skills": "Web Developer",
-		"my_photo": "Photo of Pierre-Elliott Thiboud"
+		"my_photo": "Photo of Pierre-Elliott Thiboud",
+		"wip_message": "This website is being rewritten. If you want to see the content of the old site, you can watch the README on the <a href='github.com/pierreelliott/pierreelliott.github.io'>GitHub repository</a>"
 	},
 	"menu": {
 		"portfolio": "Portfolio",
