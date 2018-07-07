@@ -7,7 +7,7 @@
 	{% endif %}
 {% endfor %}
 {% if hasLang == false %}
-	{% page.lang = 'en' %}
+	{% assign page.lang = 'en' %}
 {% endif %}
 
 <html lang="{{ page.lang }}">
