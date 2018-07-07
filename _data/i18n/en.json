@@ -1,0 +1,51 @@
+{
+	"site": {
+		"skills": "Web Developer"
+	},
+	"menu": {
+		"portfolio": "Portfolio",
+		"about": "About",
+		"contact": "Contact"
+	},
+	"portfolio": {
+		"title": "Portfolio"
+	},
+	"about": {
+		"title": "About",
+		"description_1": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.",
+		"description_2": "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! "
+	},
+	"contact_static": {
+		"title": "Contact Me",
+		"name": "Name",
+		"mail": "Email Address",
+		"message": "Message",
+		"send": "Send",
+		"required": {
+			"name": "Please enter your name.",
+			"mail": "Please enter your email address.",
+			"message": "Please enter a message."
+		}
+	},
+	"contact_disqus": {
+		"title": "Contact Me"
+	},
+	"contact_form": {
+
+	},
+	"footer": {
+		"location": "Location",
+		"social": "Around the Web",
+		"credits": "Credits",
+		"credits_description": "Freelancer is a free to use, open source Bootstrap theme created by <a href='http://startbootstrap.com'>Start Bootstrap</a>."
+	},
+	"modals": {
+		"close": "Close"
+	},
+	"js": {
+		"contact": {
+			"message_sent": "Your message has been sent. ",
+			"message_problem": "Sorry, it seems that my mail server is not responding. Please try again later!"
+		}
+	}
+}

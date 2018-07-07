@@ -1,0 +1,51 @@
+{
+	"site": {
+		"skills": "Web Développeur"
+	},
+	"menu": {
+		"portfolio": "Portfolio",
+		"about": "À propos",
+		"contact": "Contact"
+	},
+	"portfolio": {
+		"title": "Portfolio"
+	},
+	"about": {
+		"title": "À propos",
+		"description_1": "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.",
+		"description_2": "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! "
+	},
+	"contact_static": {
+		"title": "Contactez Moi",
+		"name": "Nom",
+		"mail": "Adresse e-mail",
+		"message": "Message",
+		"send": "Enovyer",
+		"required": {
+			"name": "Veuillez renseigner votre nom.",
+			"mail": "Veuillez renseigner votre adresse e-mail.",
+			"message": "Veuillez renseigner votre message."
+		}
+	},
+	"contact_disqus": {
+		"title": "Contactez Moi"
+	},
+	"contact_form": {
+
+	},
+	"footer": {
+		"location": "Localisation",
+		"social": "Sur la toile",
+		"credits": "Crédits",
+		"credits_description": "Freelancer is a free to use, open source Bootstrap theme created by <a href='http://startbootstrap.com'>Start Bootstrap</a>."
+	},
+	"modals": {
+		"close": "Fermer"
+	},
+	"js": {
+		"contact": {
+			"message_sent": "Votre message a été envoyé. ",
+			"message_problem": "Toutes mes excuses, mon serveur mail semble injoignable. Veuillez réessayer dans quelques instants !"
+		}
+	}
+}
