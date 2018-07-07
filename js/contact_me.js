@@ -33,7 +33,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>{{ site.data[page.lang].js.contact.message_sent }}</strong>");
+                        .append("<strong>{{ i18n.js.contact.message_sent }}</strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -45,7 +45,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>{{ site.data[page.lang].js.contact.message_problem }}</strong>");
+                    $('#success > .alert-danger').append("<strong>{{ i18n.js.contact.message_problem }}</strong>");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");

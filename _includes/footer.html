@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data[page.lang].footer.location }}</h3>
+                        <h3>{{ i18n.footer.location }}</h3>
                         <p>
                             {% for adress in site.address %}
                                 {{ adress.line }} <br>
@@ -12,7 +12,7 @@
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data[page.lang].footer.social }}</h3>
+                        <h3>{{ i18n.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
@@ -22,8 +22,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data[page.lang].footer.credits }}</h3>
-                        <p>{{ site.data[page.lang].footer.credits_description }}</p>
+                        <h3>{{ i18n.footer.credits }}</h3>
+                        <p>{{ i18n.footer.credits_description }}</p>
                     </div>
                 </div>
             </div>
