@@ -1,35 +1,23 @@
-<!DOCTYPE html>
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
 
-{% assign hasLang = false %}
-{% for lang in site.data.i18n %}
-	{% if page.lang == lang %}
-		{% assign hasLang = true %}
-	{% endif %}
-{% endfor %}
-{% if hasLang == false %}
-	{% assign page.lang = 'en' %}
-{% endif %}
+	{% include _masthead.html %}
+	{{ content }}
 
-{% assign i18n = site.data.i18n[page.lang] %}
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
 
-<html lang="{{ page.lang }}">
-    {% include head.html %}
-    <body id="page-top" class="index">
-	    {% include nav.html %}
-	    {% include header.html %}
-	    {% include portfolio_grid.html %}
-	    {% include about.html %}
-
-	    {% if site.contact == "static" %}
-	    {% include contact_static.html %}
-	    {% elsif site.contact == "disqus" %}
-	    {% include contact_disqus.html %}
-	    {% else %}
-	    {% include contact.html %}
-	    {% endif %}
-
-	    {% include footer.html %}
-	    {% include modals.html %}
-	    {% include js.html %}
-    </body>
+	{% include _footer_scripts.html %}
+</body>
 </html>

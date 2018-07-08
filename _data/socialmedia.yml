@@ -1,0 +1,54 @@
+- name: GitHub
+  url: http://github.com/pierreelliott
+  class: icon-github
+  title: "Code and development"
+
+- name: Linkedin
+  url: www.linkedin.com/in/pierreelliott-thiboud/
+  class: icon-linkedin
+  title: "Profesional network"
+
+#- name: YouTube
+#  url: http://www.youtube.com/*username*
+#  class: icon-youtube
+#  title: "Videos, and more on YouTube"
+
+#- name: Twitter
+#  url: http://twitter.com/*username*
+#  class: icon-twitter
+#  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/*username*/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
+
+#- name: Google+
+#  url: https://plus.google.com/u/0/+*username*
+#  class: icon-googleplus
+#  title: "YouTube Google+"
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: ""
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil
