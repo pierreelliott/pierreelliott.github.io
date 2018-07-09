@@ -43,7 +43,7 @@ permalink: /index.html
 # this page as active in the topbar navigation
 #
 homepage: true
-show_blog: false
+show_blog: true
 ---
 
 <!--

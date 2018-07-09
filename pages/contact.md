@@ -2,11 +2,14 @@
 layout: page
 title: "Contact"
 meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+#subheadline: {{ site.slogan }}
+teaser: "Get in touch with me? Use the contact form or send me an e-mail."
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
+The contact form isn't ready for now.
+
+You can still contact me at this [e-mail address][1] or the one provided in my [CV][2].
 
 
- [1]: http://www.wufoo.com/
+ [1]: mailto:pierreelliott.site@netc.fr
+ [2]: {{ site.url }}/about-me/

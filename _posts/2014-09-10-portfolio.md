@@ -4,7 +4,7 @@ title: "All my work!"
 subheadline: "Portfolio"
 teaser: "Well, it isn't all my work actually. But still, you can check out the projects I have done!"
 categories:
-    - projects
+    - design
 ---
 <!--more-->
 

@@ -1,56 +1,78 @@
 ---
 layout: page
-title: "About"
-subheadline: "Why another Jekyll Theme?"
-teaser: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
-permalink: "/info/"
+title: "About Me"
+subheadline: "Who am I?"
+teaser: "Discover who I am and what my qualifications are."
+permalink: "/about-me/"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "site/about-me_header.jpg"
 ---
-...and learn at the same time.
-
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
 
 
-## Features
+As you may have guessed, my name is Pierre-Elliott Thiboud and I am a student at Polytech Lyon, an engineering school at Lyon in France.
 
-* [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
-* 100% GitHub Pages friendly
-* Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
-* Lots of possibilities to customize it to your needs
-* Lots of different headers
-* Various post formats to let your content shine
-* Uses Jekyll 3.0
-* Multiple possibilities to use images in different ways
-* Fine typography
-* Play Video and Audio with [Mediaelement.js][12]
+For your information, [my CV can be downloaded here][4].
+
+## Qualifications
+
+#### 2017 - 2020 : Engineering degree in IT
+
+Done at [Polytech Lyon][1] (Lyon, France)
+
+I have finished my first year (out of three) in Polytech Lyon and am now searching an internship for the next semester (from September 2018 to January 2019).<br />
+During this year, I have learned C# and ASP.Net MVC. I have also been able to reuse my skills in web technologies (HTML5, CSS, JS) and in Java 8.
+
+#### 2015 - 2017 : 'DUT Informatique' (a two year french diploma in IT)
+
+Done at the [IUT Lyon 1][2] (Lyon, France)<br />
+
+This diploma made me very capable in many IT fields, ranging from SQL and PL/SQL to web development with HTML5, CSS, JS and PHP without forgetting Java 8, C, C++, JavaEE, Python, UML and Merise.
+
+#### 2014 - 2015 : 1 year of preparatory school for entrance to Grandes Ecoles
+
+Done at [Polytech Lyon][1] (Lyon, France)
+
+#### 2014 : High school diploma in sciences
+
+Done at [St Exupéry High school][3] (Bellegarde-sur-Valserine, France)
+
+## Skills
+
+* Web technologies : HTML5, CSS, JavaScript (ES2015), PHP, JavaEE, ASP.Net MVC
+* Databases : SQL, PL/SQL, MySQL, XML (with XPath and XQuery), NoSQL
+* Java 8
+* Python
+* C#
+* C
+* C++
 
 
 
-## I got inspired by...
+## Professional experiences
 
-[Michael Rose][1] and his fabulous [themes for jekyll][2]. Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002. [GitHub][6] and how they built such a habitat for cooperation worldwide. [Automattic][3] and how they built a fantastic community around WordPress. And many, many more...
+I haven't been able to have much professional experiences in the IT field, but I have done a 3 month internship during my DUT at the [LIRIS][5] (a french research laboratory in IT).
 
-Please make *Feeling Responsive* yours and if you like it, please link back to my homebase <a href="http://phlow.de/">Phlow</a>. That would be awesome.
+### Internship at the LIRIS
 
-#### Since then, fork it!
+This internship was done in the [SMA team][6] (Multi-Agent Systems) which is part of [Behaviors.ai][7], a joint laboratory between the SMA team and [Hoomano][8].
 
-Yours sincerelly, [Moritz »mo.« Sauer][7]
+The goal of this internship was to create a web version of the pedagogical game [Little A.I.][9], used to explain the principles of developmental artificial intelligence.
+
+A demo of my work can be found [here][10].
 
 
- [1]: http://mademistakes.com/about/
- [2]: http://mademistakes.com/work/jekyll-themes/
- [3]: http://automattic.com/
- [4]: http://alistapart.com/
- [5]: http://www.smashingmagazine.com/
- [6]: https://github.com/
- [7]: http://sauer.io
- [8]: {{ site.url }}/design/gallery/
- [9]: {{ site.url }}/design/video/
- [10]: {{ site.url }}/design/grid/
- [11]: {{ site.url }}/design/typography/
- [12]: {{ site.url }}/design/mediaelement_js/
+ [1]: https://polytech.univ-lyon1.fr/
+ [2]: https://iut.univ-lyon1.fr/
+ [3]: http://lycee-saint-exupery-bellegarde.etab.ac-lyon.fr
+ [4]: {{ site.url }}/Pierre-Elliott_THIBOUD_CV.pdf
+ [5]: https://liris.cnrs.fr/
+ [6]: https://liris.cnrs.fr/equipes?id=74
+ [7]: http://behaviors.ai/
+ [8]: https://hoomano.com
+ [9]: http://little-ai.com
+ [10]: https://pierreelliott.github.io/LittleAI-Web
+ [11]: #
+ [12]: #
  [13]: #
  [14]: #
  [15]: #
