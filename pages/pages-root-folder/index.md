@@ -9,20 +9,20 @@ header:
   image_fullwidth: site/homepage.jpg
   title: Pierre-Elliott Thiboud
 widget1:
+  title: "Who am I?"
+  url: '/about-me/'
+  text: 'Discover who I am with an overview of my studies and achievements.<br/>You can also download my CV as a PDF document.'
+  image: site/about_me.jpg
+widget2:
   title: "Portfolio"
   url: '/portfolio/'
   image: site/portfolio.jpg
   text: 'Every good portfolio website has a ... well, a portfolio.'
-widget2:
-  title: "Who am I?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: 'Discover who I am with an overview of my studies and achievements.<br/>You can also download my CV as a PDF document.'
-  image: site/about_me.jpg
 widget3:
   title: "View my creations on GitHub"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: site/on_github.jpg
-  text: "While many repositories of mine aren't licensed (I need to do it... sometime) you might find interesting to see how I managed to achieve a thing or two."
+  url: 'https://github.com/pierreelliott'
+  image: site/code.jpg
+  text: "While most of my repositories aren't licensed (I need to do it... sometime) you might find interesting to see how I managed to achieve a thing or two."
 #
 # Use the call for action to show a button on the frontpage
 #

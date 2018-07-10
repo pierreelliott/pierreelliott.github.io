@@ -124,6 +124,14 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: pierreelliott     # Default author for posts
+  - scope:
+      path: 'portfolio/'
+      type: ''
+    values:
+      layout: page
+      breadcrumb: true
+      show_meta: true
+      author: pierreelliott
 
 
 

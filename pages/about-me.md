@@ -11,18 +11,18 @@ header:
 
 As you may have guessed, my name is Pierre-Elliott Thiboud and I am a student at Polytech Lyon, an engineering school at Lyon in France.
 
-For your information, [my CV can be downloaded here][4].
+For your information, [my CV (in French) can be downloaded here][4].
 
 ## Qualifications
 
 #### 2017 - 2020 : Engineering degree in IT
 
-Done at [Polytech Lyon][1] (Lyon, France)
+Being done at [Polytech Lyon][1] (Lyon, France)
 
 I have finished my first year (out of three) in Polytech Lyon and am now searching an internship for the next semester (from September 2018 to January 2019).<br />
 During this year, I have learned C# and ASP.Net MVC. I have also been able to reuse my skills in web technologies (HTML5, CSS, JS) and in Java 8.
 
-#### 2015 - 2017 : 'DUT Informatique' (a two year french diploma in IT)
+#### 2015 - 2017 : 'DUT Informatique' (a two year French diploma in IT)
 
 Done at the [IUT Lyon 1][2] (Lyon, France)<br />
 
@@ -38,7 +38,7 @@ Done at [St Exupéry High school][3] (Bellegarde-sur-Valserine, France)
 
 ## Skills
 
-* Web technologies : HTML5, CSS, JavaScript (ES2015), PHP, JavaEE, ASP.Net MVC
+* Web technologies : HTML5, CSS, JavaScript (ES2015), PHP, JavaEE, ASP.Net MVC, Jekyll (beginner)
 * Databases : SQL, PL/SQL, MySQL, XML (with XPath and XQuery), NoSQL
 * Java 8
 * Python
@@ -50,15 +50,13 @@ Done at [St Exupéry High school][3] (Bellegarde-sur-Valserine, France)
 
 ## Professional experiences
 
-I haven't been able to have much professional experiences in the IT field, but I have done a 3 month internship during my DUT at the [LIRIS][5] (a french research laboratory in IT).
+### Internship at the [LIRIS][5]
 
-### Internship at the LIRIS
-
-This internship was done in the [SMA team][6] (Multi-Agent Systems) which is part of [Behaviors.ai][7], a joint laboratory between the SMA team and [Hoomano][8].
+This internship was done in the [SMA team][6] (Multi-Agent Systems) of the [LIRIS][5] (a French research laboratory in IT) which is part of [Behaviors.ai][7], a joint laboratory between the SMA team and [Hoomano][8].
 
 The goal of this internship was to create a web version of the pedagogical game [Little A.I.][9], used to explain the principles of developmental artificial intelligence.
 
-A demo of my work can be found [here][10].
+A demo of my work can be found [here][10] and this project is viewable in my [portfolio][11].
 
 
  [1]: https://polytech.univ-lyon1.fr/
@@ -71,7 +69,7 @@ A demo of my work can be found [here][10].
  [8]: https://hoomano.com
  [9]: http://little-ai.com
  [10]: https://pierreelliott.github.io/LittleAI-Web
- [11]: #
+ [11]: {{ site.url }}/portfolio/little-ai
  [12]: #
  [13]: #
  [14]: #

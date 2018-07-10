@@ -11,7 +11,8 @@
 {% endcomment %}
 
 <div class="row t60">
-  {% for page in site.[include.collection] limit:2 %}
+  {% assign projects = site.[include.collection] | sort: 'priority' %}
+  {% for page in projects limit:2 %}
     {% unless page.published == false %}
 
 	{% include _project_preview.html page=page size='2' %}
@@ -22,7 +23,8 @@
 
 
 <div class="row t30">
-  {% for page in site.[include.collection] offset:2 %}
+  {% assign projects = site.[include.collection] | sort: 'priority' %}
+  {% for page in projects offset:2 %}
     {% unless page.published == false %}
 
     {% include _project_preview.html page=page size='3' %}
