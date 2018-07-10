@@ -1,0 +1,28 @@
+{% assign page = include.page %}
+{% assign size = include.size %}
+
+{% assign thumb = page.image.thumb_big %}
+
+{% if thumb == nil or thumb == ' ' %}
+	{% assign thumb = "site/empty.jpg" %}
+{% endif %}
+
+{% if size == '2' %}
+
+<div class="medium-6 columns b30">
+	<a href="{{ site.url }}{{ page.url }}">
+		<h3>{{ page.title }}</h3>
+		<img src="{{ site.urlimg }}{{ thumb }}" alt="{{ page.image.thumb_caption }}">
+	</a>
+</div><!-- /.medium-6.columns -->
+
+{% else %}
+
+<div class="medium-4 columns">
+	<a href="{{ site.url }}{{ page.url }}">
+		<h4>{{ page.title }}</h4>
+		<img src="{{ site.urlimg }}{{ thumb }}" alt="{{ page.image.thumb_caption }}">
+	</a>
+</div><!-- /.medium-4.columns -->
+
+{% endif %}

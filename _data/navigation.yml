@@ -1,0 +1,35 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About Me
+  url: "/about-me/"
+  side: left
+
+- title: Portfolio
+  url: "/portfolio/"
+  side: left
+
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
+
+#- title: "Search"
+#  url: "/search/"
+#  side: right
+
+#- title: "Language"
+#  url: "/language/"
+#  side: right
+#  dropdown:
+#  - title: "English"
+#    url: {{ page.url }}/en
+#  - title: "French"
+#    url: {{ page.url }}/fr
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

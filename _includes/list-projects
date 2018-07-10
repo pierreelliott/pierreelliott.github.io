@@ -1,0 +1,34 @@
+{% comment %}
+*
+*   This include lets you loop through a collection to list
+*   all entries in that collection.
+*
+*   If you set »published: false« in front matter of a collection page
+*   the page gots filtered out via unless
+*
+*   Example: {% include list-collection collection='portfolio' %}
+*
+{% endcomment %}
+
+<div class="row t60">
+  {% assign projects = site.[include.collection] | sort: 'priority' %}
+  {% for page in projects limit:2 %}
+    {% unless page.published == false %}
+
+	{% include _project_preview.html page=page size='2' %}
+
+	{% endunless %}
+  {% endfor %}
+</div><!-- /.row -->
+
+
+<div class="row t30">
+  {% assign projects = site.[include.collection] | sort: 'priority' %}
+  {% for page in projects offset:2 %}
+    {% unless page.published == false %}
+
+    {% include _project_preview.html page=page size='3' %}
+
+	{% endunless %}
+  {% endfor %}
+</div><!-- /.row -->
