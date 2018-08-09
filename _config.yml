@@ -20,7 +20,7 @@ description: 'Personal website of Pierre-Elliott Thiboud, web developer and stud
 credits: '<p>Created with &hearts; by <a href="https://pierreelliott.github.io">Pierre-Elliott</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.<br />All images on this site should have proper meta information about author(s). If not, feel free to let me know.</p>'
 
 # Main author of the website
-# See > authors.yml
+# See > _data/authors.yml
 author: pierreelliott
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
