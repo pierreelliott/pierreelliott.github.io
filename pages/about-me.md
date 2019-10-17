@@ -9,9 +9,9 @@ header:
 ---
 
 
-As you may have guessed, my name is Pierre-Elliott Thiboud and I am a student at Polytech Lyon, an engineering school at Lyon in France.
+As you may have guessed, my name is Pierre-Elliott Thiboud and I am doing a double major in IT and Artificial Intelligence at Polytech Lyon (Lyon, France) and Université Claude Bernard Lyon 1.
 
-For your information, [my CV (in French) can be downloaded here][4].
+For your information, [my Resume (in French) can be downloaded here][4].
 
 ## Qualifications
 
@@ -20,7 +20,7 @@ For your information, [my CV (in French) can be downloaded here][4].
 Being done at [Polytech Lyon][1] (Lyon, France)
 
 I have finished my first year (out of three) in Polytech Lyon and am now searching an internship for the next semester (from September 2018 to January 2019).<br />
-During this year, I have learned C# and ASP.Net MVC. I have also been able to reuse my skills in web technologies (HTML5, CSS, JS) and in Java 8.
+During this year, I have learned C# and ASP.Net MVC. I have also been able to reuse my skills in web technologies (HTML5, CSS, JS) and in Java.
 
 #### 2015 - 2017 : 'DUT Informatique' (a two year French diploma in IT)
 

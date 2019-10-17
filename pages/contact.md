@@ -8,7 +8,7 @@ permalink: "/contact/"
 ---
 <em>The contact form isn't ready for now.</em>
 
-You can still contact me at this [e-mail address][1] or the one provided in my [CV][2].
+You can still contact me at this [e-mail address][1] or the one provided in my [Resume][2].
 
 
  [1]: mailto:pierreelliott.site@netc.fr

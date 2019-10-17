@@ -11,7 +11,7 @@ header:
 widget1:
   title: "Who am I?"
   url: '/about-me/'
-  text: 'Discover who I am with an overview of my studies and achievements.<br/>You can also download my CV as a PDF document.'
+  text: 'Discover who I am with an overview of my studies and achievements.<br/>You can also download my Resume as a PDF document.'
   image: site/about_me.jpg
 widget2:
   title: "Portfolio"
